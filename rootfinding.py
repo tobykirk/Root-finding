@@ -1,6 +1,10 @@
 def myfun(x):
     return x**2+(x-2)**3-5
 
+def myfun2(x):
+    return x**3+(x-2)**3-5
+
+
 def mybisection(f,a,b,eps):
 
     #initial guess
